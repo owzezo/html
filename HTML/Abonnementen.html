@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="nl">
+  <head>
+    <title> Fletnix</title>
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/Abonnementen.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/HTML/index.html">Fletnix</a>
+      <div class="subnav">
+        <button class="subnavbtn">Films <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="subnav-content">
+          <a href="/HTML/Filmoverzicht.html">Filmoverzicht</a>
+          <a href="/HTML/Filmzienpagina.html">Film bekijken</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">Genres <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="subnav-content">
+          <a href="/HTML/genrepagina.html">Horror</a>
+          <a href="/HTML/genrepagina.html">Thriller</a>
+          <a href="/HTML/genrepagina.html">Comedy</a>
+          <a href="/HTML/genrepagina.html">Avontuur</a>
+          <a href="/HTML/genrepagina.html">Japans</a>
+          <a href="/HTML/genrepagina.html">Koreaans</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">Profiel <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="subnav-content">
+          <a href="/HTML/inloggen.html">Inloggen</a>
+          <a href="/HTML/Abonnementen.html">Registeren</a>
+          <a href="/HTML/Profiel.html">Profiel</a>
+          <a href="/HTML/ingelogd.html">Ingelogd</a>
+        </div>
+      </div>
+      <a href="/HTML/Over-ons.html">Over ons</a>
+      <div class="search-container" id="zoekcontainer">
+        <input type="text" placeholder="zoek op.. (titel,genre) " name="search">
+        <input type="submit" value="Zoek ">
+      </div>
+    </div>
+    <section id="banner">
+      <div class="banner-text">
+        <h1> Fletnix movie website</h1>
+        <p> Movies dag en nacht! </p>
+        <div class="banner-btn">
+          <a href="/HTML/inloggen.html">
+            <span></span>Inloggen </a>
+          <a href="/HTML/Abonnementen.html">
+            <span></span>Registeren </a>
+        </div>
+      </div>
+    </section>
+    <!--Abonnementen-->
+    <section id="feature">
+      <div class="title-text">
+        <p> Fletnix</p>
+        <h1> Abonnementen!</h1>
+      </div>
+      <div class="feature-box">
+        <div class="features">
+          <h1>Informatie</h1>
+          <div class="feature-desc">
+            <div class="feature-icon"></div>
+            <div class="feature-text">
+              <p>Bij Fletnix hebben wij meerdere abonnementen, U kunt kiezen uit: </p>
+              <p> Het basis pakket: $8 per maand, daarbij krijgt u toegang tot alle films in full-HD beeldkwaliteit maar zonder offline kijken.
+              <p>
+              <p>Het Algemene pakket: $13 per maand, daarbij krijgt u net zoals bij het basis pakket toegang tot alle films in Full-HD maar dit keer krijgt u ook toegang om alles offline te downloaden en terug te kijken.</p>
+              <p>Het Max pakket: $18 per maand, daarbij krijgt u toegang to alle bovenstaande functies. Met daarbij nog dat het beeldkwaliteit (zolang de film dat ondersteunt) op 4k 60fps gezet kan worden.</p>
+              <p> mocht u interesse hebben, dan kunt u onderstaand digitaal formulier invullen en dan zullen wij spoedig contact met u opnemen! </p>
+            </div>
+          </div>
+          <!-- Registreren-->
+          <form>
+            <label for="fname">Voornaam:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Achternaam:</label>
+            <input type="text" id="lname" name="lname">
+            <label for="username">Gebruikersnaam:</label>
+            <input type="text" id="username" name="username">
+            <label for="bdate">Geboortedatum:</label>
+            <input type="text" id="bdate" name="bdate">
+            <label for="cardnumber">Rekeningnummer</label>
+            <input type="text" id="cardnumber" name="cardnumber">
+            <label for="mail">Mailadres:</label>
+            <input type="text" id="mail" name="mail">
+            <label for="passworduser">Wachtwoord:</label>
+            <input type="password" id="passworduser" name="passworduser">
+            <label for="Abonnement">Abonnement:</label>
+            <input type="text" id="Abonnement" name="Abonnement">
+          </form>
+          <input type="submit" value="Registreer">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
